@@ -1,6 +1,6 @@
 # Waterflow Shading Documentation
 
-![Waterflow shading](/Documentation/title.png "watershading")
+![Waterflow shading](/Documentation/Title.png "watershading")
 
 ## Features
 
