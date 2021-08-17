@@ -1,5 +1,7 @@
 # Waterflow Shading Documentation
 
+![Waterflow shading](/Documentation/title.png "watershading")
+
 ## Features
 
 - The ripples are simulated in two layers of Voronoi noise with parallel movement (one is the base and one is the highlight) , giving the final render a more dynamic and realistic look. 
