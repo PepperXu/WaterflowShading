@@ -42,7 +42,7 @@
 
 - Based on the geometry of the water surface and the vertex animation, both the static (or real) normal (first image) and the dynamic (simulated) normal (second image) are calculated. These texture coordinates are brought into the fragment shader for calculating the static and dynamic lighting. The static lighting is applied additively to the base texture, while the dynamic lighting is applied multiplicatively to the animated ripple reflection and highlight.
 ![Static Normal](/Documentation/Geo01.png "static normal")
-![Dynamic Normal](/Documentation/Geo02.png "static normal")
+![Dynamic Normal](/Documentation/Geo02.png "dynamic normal")
 - Inspired by the reflective highlight effect of the water in a pond in NTU ADM, I generate the dynamic highlight by modulating the noise texture to produce small patches of cut-off area of whiteness. The highlight reacts to the angle of the directional light and is animated by the parallel movement of two noise textures.
 ![Water Reflection Real-world](/Documentation/Water01.png "water reflection real")
 ![Water Reflection Simulated](/Documentation/Water02.png "water simulation")
